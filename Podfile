@@ -18,6 +18,10 @@ pod "KCFloatingActionButton"
 pod 'TransitionAnimation', '~>3.0.4'
 pod 'TransitionTreasury', '~> 3.0.4'
 pod "SwiftSpinner"
+ pod 'SwiftyJSON'
+  pod 'Alamofire'
+  pod 'AlamofireImage'
+  pod 'AlamofireNetworkActivityIndicator'
   target 'Meet UpTests' do
     inherit! :search_paths
     # Pods for testing

@@ -13,9 +13,7 @@ import TransitionAnimation
 import TransitionTreasury
 import Parse
 class FrontPageViewController: VideoSplashViewController, ModalTransitionDelegate {
-    override func prefersStatusBarHidden() -> Bool {
-        return true
-    }
+ 
     
     
     override func viewDidLoad() {
@@ -30,11 +28,13 @@ class FrontPageViewController: VideoSplashViewController, ModalTransitionDelegat
         registerLayer.animation = "slideDown"
         signInLayer.animate()
         registerLayer.animate()
-//                if PFUser.currentUser() != nil {
-//                    let model = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("appAccess")
-//                    self.tr_presentViewController(model, method: TRPresentTransitionMethod.Twitter)
-//                }
-//        
+        
+        if PFUser.currentUser() != nil {
+                    let model = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("appAccess")
+                   self.tr_presentViewController(model, method:  TRPresentTransitionMethod.Fade, statusBarStyle: TRStatusBarStyle.LightContent, completion: nil)
+                }
+
+
     }
     // Outlet
     @IBOutlet var registerLayer: SpringButton!
@@ -47,7 +47,8 @@ class FrontPageViewController: VideoSplashViewController, ModalTransitionDelegat
         
         let model = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("register") as! RegisterViewController
         model.modalDelegate = self
-        tr_presentViewController(model, method: TRPresentTransitionMethod.TaaskyFlip(blurEffect: true))
+       // tr_presentViewController(model, method: TRPresentTransitionMethod.TaaskyFlip(blurEffect: true))
+        tr_presentViewController(model, method:  TRPresentTransitionMethod.TaaskyFlip(blurEffect: true), statusBarStyle: TRStatusBarStyle.LightContent, completion: nil)
     }
     var tr_presentTransition: TRViewControllerTransitionDelegate?
     
@@ -58,7 +59,8 @@ class FrontPageViewController: VideoSplashViewController, ModalTransitionDelegat
         
         let model = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("signIn") as! SiginInViewController
         model.modalDelegate = self
-        tr_presentViewController(model, method: TRPresentTransitionMethod.TaaskyFlip(blurEffect: true))
+        //tr_presentViewController(model, method: TRPresentTransitionMethod.TaaskyFlip(blurEffect: true))
+        tr_presentViewController(model, method:  TRPresentTransitionMethod.TaaskyFlip(blurEffect: true), statusBarStyle: TRStatusBarStyle.LightContent, completion: nil)
     }
     
     private func setUpVideo ()

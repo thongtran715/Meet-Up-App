@@ -8,12 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		1B3198ECE37B48662237185E /* Pods_Meet_UpUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFAB164ED7F6EAA525DA7ECF /* Pods_Meet_UpUITests.framework */; };
+		42018E271D3813C3005EB7E7 /* BTNavigationDropdownMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42018E261D3813C3005EB7E7 /* BTNavigationDropdownMenu.swift */; };
+		42018E291D381442005EB7E7 /* BTNavigationDropdownMenu.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 42018E281D381442005EB7E7 /* BTNavigationDropdownMenu.bundle */; };
 		420906801D35BEB6008162E6 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4209067F1D35BEB6008162E6 /* ProfileViewController.swift */; };
-		420906821D35C662008162E6 /* ProfileUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420906811D35C662008162E6 /* ProfileUser.swift */; };
+		4226408F1D36C4F400882373 /* JTSAnimatedGIFUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 422640841D36C4F400882373 /* JTSAnimatedGIFUtility.m */; };
+		422640901D36C4F400882373 /* JTSImageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 422640861D36C4F400882373 /* JTSImageInfo.m */; };
+		422640911D36C4F400882373 /* JTSImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 422640881D36C4F400882373 /* JTSImageViewController.m */; };
+		422640921D36C4F400882373 /* JTSSimpleImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4226408A1D36C4F400882373 /* JTSSimpleImageDownloader.m */; };
+		422640931D36C4F400882373 /* UIApplication+JTSImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4226408C1D36C4F400882373 /* UIApplication+JTSImageViewController.m */; };
+		422640941D36C4F400882373 /* UIImage+JTSImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 4226408E1D36C4F400882373 /* UIImage+JTSImageEffects.m */; };
 		4259ED8C1D33295400F39348 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4259ED8A1D33295400F39348 /* Default-568h@2x.png */; };
 		4259ED8D1D33295400F39348 /* Museo500-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4259ED8B1D33295400F39348 /* Museo500-Regular.otf */; };
 		4259ED901D332A2500F39348 /* SiginInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4259ED8F1D332A2500F39348 /* SiginInViewController.swift */; };
 		4259ED921D332A3200F39348 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4259ED911D332A3200F39348 /* RegisterViewController.swift */; };
+		42610DEE1D36A47900AF40FA /* AnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42610DE61D36A47900AF40FA /* AnimationController.swift */; };
+		42610DEF1D36A47900AF40FA /* ImageAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42610DE71D36A47900AF40FA /* ImageAction.swift */; };
+		42610DF01D36A47900AF40FA /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42610DE81D36A47900AF40FA /* ImageCollectionViewCell.swift */; };
+		42610DF11D36A47900AF40FA /* ImagePickerCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42610DE91D36A47900AF40FA /* ImagePickerCollectionView.swift */; };
+		42610DF21D36A47900AF40FA /* ImagePickerSheetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42610DEB1D36A47900AF40FA /* ImagePickerSheetController.swift */; };
+		42610DF31D36A47900AF40FA /* ImagePreviewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42610DEC1D36A47900AF40FA /* ImagePreviewFlowLayout.swift */; };
+		42610DF41D36A47900AF40FA /* ImagePreviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42610DED1D36A47900AF40FA /* ImagePreviewTableViewCell.swift */; };
+		42610DF61D36A51500AF40FA /* PreviewSupplementaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42610DF51D36A51500AF40FA /* PreviewSupplementaryView.swift */; };
 		4284DAD61D31ACEB00B05267 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4284DAD51D31ACEB00B05267 /* AppDelegate.swift */; };
 		4284DADB1D31ACEC00B05267 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4284DAD91D31ACEC00B05267 /* Main.storyboard */; };
 		4284DADE1D31ACEC00B05267 /* Meet_Up.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4284DADC1D31ACEC00B05267 /* Meet_Up.xcdatamodeld */; };
@@ -39,6 +54,11 @@
 		4284DB321D31C56C00B05267 /* FrontPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4284DB311D31C56C00B05267 /* FrontPageViewController.swift */; };
 		4285BD671D33727A00C23C65 /* SCLAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4285BD661D33727A00C23C65 /* SCLAlertView.swift */; };
 		42C0794B1D33005F008CF5B5 /* splash.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 42C0794A1D330050008CF5B5 /* splash.mp4 */; };
+		42D774031D37453100C72134 /* TimeLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D774021D37453100C72134 /* TimeLineViewController.swift */; };
+		42D774051D37456900C72134 /* eventHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D774041D37456900C72134 /* eventHelper.swift */; };
+		42D774071D374CA400C72134 /* TimeLinetableviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D774061D374CA400C72134 /* TimeLinetableviewCell.swift */; };
+		42FB88591D37D42000898C92 /* indicatorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FB88581D37D42000898C92 /* indicatorHelper.swift */; };
+		42FB885B1D37EC1700898C92 /* webViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FB885A1D37EC1700898C92 /* webViewController.swift */; };
 		9877BFAD469BE1C4597B2E15 /* Pods_Meet_UpTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C52631BCBB364F7BBB375509 /* Pods_Meet_UpTests.framework */; };
 		AF291EB7C827A049FB0C7E76 /* Pods_Meet_Up.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACD3539E8A604C4B2CF9BCBD /* Pods_Meet_Up.framework */; };
 /* End PBXBuildFile section */
@@ -62,12 +82,35 @@
 
 /* Begin PBXFileReference section */
 		30852E893D51B397DDC180FB /* Pods-Meet Up.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meet Up.release.xcconfig"; path = "Pods/Target Support Files/Pods-Meet Up/Pods-Meet Up.release.xcconfig"; sourceTree = "<group>"; };
+		42018E261D3813C3005EB7E7 /* BTNavigationDropdownMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTNavigationDropdownMenu.swift; sourceTree = "<group>"; };
+		42018E281D381442005EB7E7 /* BTNavigationDropdownMenu.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BTNavigationDropdownMenu.bundle; sourceTree = "<group>"; };
 		4209067F1D35BEB6008162E6 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		420906811D35C662008162E6 /* ProfileUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileUser.swift; sourceTree = "<group>"; };
+		422640821D36C4F300882373 /* Meet Up-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Meet Up-Bridging-Header.h"; sourceTree = "<group>"; };
+		422640831D36C4F400882373 /* JTSAnimatedGIFUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTSAnimatedGIFUtility.h; sourceTree = "<group>"; };
+		422640841D36C4F400882373 /* JTSAnimatedGIFUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTSAnimatedGIFUtility.m; sourceTree = "<group>"; };
+		422640851D36C4F400882373 /* JTSImageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTSImageInfo.h; sourceTree = "<group>"; };
+		422640861D36C4F400882373 /* JTSImageInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTSImageInfo.m; sourceTree = "<group>"; };
+		422640871D36C4F400882373 /* JTSImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTSImageViewController.h; sourceTree = "<group>"; };
+		422640881D36C4F400882373 /* JTSImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTSImageViewController.m; sourceTree = "<group>"; };
+		422640891D36C4F400882373 /* JTSSimpleImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTSSimpleImageDownloader.h; sourceTree = "<group>"; };
+		4226408A1D36C4F400882373 /* JTSSimpleImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTSSimpleImageDownloader.m; sourceTree = "<group>"; };
+		4226408B1D36C4F400882373 /* UIApplication+JTSImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+JTSImageViewController.h"; sourceTree = "<group>"; };
+		4226408C1D36C4F400882373 /* UIApplication+JTSImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+JTSImageViewController.m"; sourceTree = "<group>"; };
+		4226408D1D36C4F400882373 /* UIImage+JTSImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JTSImageEffects.h"; sourceTree = "<group>"; };
+		4226408E1D36C4F400882373 /* UIImage+JTSImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JTSImageEffects.m"; sourceTree = "<group>"; };
 		4259ED8A1D33295400F39348 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		4259ED8B1D33295400F39348 /* Museo500-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Museo500-Regular.otf"; sourceTree = "<group>"; };
 		4259ED8F1D332A2500F39348 /* SiginInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SiginInViewController.swift; sourceTree = "<group>"; };
 		4259ED911D332A3200F39348 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		42610DE61D36A47900AF40FA /* AnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationController.swift; sourceTree = "<group>"; };
+		42610DE71D36A47900AF40FA /* ImageAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageAction.swift; sourceTree = "<group>"; };
+		42610DE81D36A47900AF40FA /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		42610DE91D36A47900AF40FA /* ImagePickerCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerCollectionView.swift; sourceTree = "<group>"; };
+		42610DEA1D36A47900AF40FA /* ImagePickerSheetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePickerSheetController.h; sourceTree = "<group>"; };
+		42610DEB1D36A47900AF40FA /* ImagePickerSheetController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerSheetController.swift; sourceTree = "<group>"; };
+		42610DEC1D36A47900AF40FA /* ImagePreviewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePreviewFlowLayout.swift; sourceTree = "<group>"; };
+		42610DED1D36A47900AF40FA /* ImagePreviewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePreviewTableViewCell.swift; sourceTree = "<group>"; };
+		42610DF51D36A51500AF40FA /* PreviewSupplementaryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewSupplementaryView.swift; sourceTree = "<group>"; };
 		4284DAD21D31ACEB00B05267 /* Meet Up.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meet Up.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4284DAD51D31ACEB00B05267 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4284DADA1D31ACEC00B05267 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -99,6 +142,11 @@
 		4284DB311D31C56C00B05267 /* FrontPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrontPageViewController.swift; sourceTree = "<group>"; };
 		4285BD661D33727A00C23C65 /* SCLAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCLAlertView.swift; sourceTree = "<group>"; };
 		42C0794A1D330050008CF5B5 /* splash.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = splash.mp4; sourceTree = "<group>"; };
+		42D774021D37453100C72134 /* TimeLineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeLineViewController.swift; sourceTree = "<group>"; };
+		42D774041D37456900C72134 /* eventHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = eventHelper.swift; sourceTree = "<group>"; };
+		42D774061D374CA400C72134 /* TimeLinetableviewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeLinetableviewCell.swift; sourceTree = "<group>"; };
+		42FB88581D37D42000898C92 /* indicatorHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = indicatorHelper.swift; sourceTree = "<group>"; };
+		42FB885A1D37EC1700898C92 /* webViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = webViewController.swift; sourceTree = "<group>"; };
 		53347EE243894E07B4B28118 /* Pods-Meet UpUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meet UpUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Meet UpUITests/Pods-Meet UpUITests.release.xcconfig"; sourceTree = "<group>"; };
 		57E1EBD0565205129FA3271D /* Pods-Meet Up.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meet Up.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Meet Up/Pods-Meet Up.debug.xcconfig"; sourceTree = "<group>"; };
 		6CCD5AEE8B7846A028F8367C /* Pods-Meet UpTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meet UpTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Meet UpTests/Pods-Meet UpTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -137,6 +185,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		422640811D36C4E100882373 /* animation */ = {
+			isa = PBXGroup;
+			children = (
+				422640831D36C4F400882373 /* JTSAnimatedGIFUtility.h */,
+				422640841D36C4F400882373 /* JTSAnimatedGIFUtility.m */,
+				422640851D36C4F400882373 /* JTSImageInfo.h */,
+				422640861D36C4F400882373 /* JTSImageInfo.m */,
+				422640871D36C4F400882373 /* JTSImageViewController.h */,
+				422640881D36C4F400882373 /* JTSImageViewController.m */,
+				422640891D36C4F400882373 /* JTSSimpleImageDownloader.h */,
+				4226408A1D36C4F400882373 /* JTSSimpleImageDownloader.m */,
+				4226408B1D36C4F400882373 /* UIApplication+JTSImageViewController.h */,
+				4226408C1D36C4F400882373 /* UIApplication+JTSImageViewController.m */,
+				4226408D1D36C4F400882373 /* UIImage+JTSImageEffects.h */,
+				4226408E1D36C4F400882373 /* UIImage+JTSImageEffects.m */,
+				422640821D36C4F300882373 /* Meet Up-Bridging-Header.h */,
+			);
+			name = animation;
+			sourceTree = "<group>";
+		};
 		4259ED8E1D3329FD00F39348 /* Sign In Pages */ = {
 			isa = PBXGroup;
 			children = (
@@ -145,6 +213,24 @@
 				4259ED911D332A3200F39348 /* RegisterViewController.swift */,
 			);
 			name = "Sign In Pages";
+			sourceTree = "<group>";
+		};
+		42610DE51D36A46400AF40FA /* ImagePickerSheetAction */ = {
+			isa = PBXGroup;
+			children = (
+				422640811D36C4E100882373 /* animation */,
+				42610DE61D36A47900AF40FA /* AnimationController.swift */,
+				42610DE71D36A47900AF40FA /* ImageAction.swift */,
+				42610DF51D36A51500AF40FA /* PreviewSupplementaryView.swift */,
+				42610DE81D36A47900AF40FA /* ImageCollectionViewCell.swift */,
+				42610DE91D36A47900AF40FA /* ImagePickerCollectionView.swift */,
+				42610DEA1D36A47900AF40FA /* ImagePickerSheetController.h */,
+				42610DEB1D36A47900AF40FA /* ImagePickerSheetController.swift */,
+				42610DEC1D36A47900AF40FA /* ImagePreviewFlowLayout.swift */,
+				42610DED1D36A47900AF40FA /* ImagePreviewTableViewCell.swift */,
+			);
+			name = ImagePickerSheetAction;
+			path = "Meet Up";
 			sourceTree = "<group>";
 		};
 		4284DAC91D31ACEB00B05267 = {
@@ -173,7 +259,6 @@
 			isa = PBXGroup;
 			children = (
 				4284DAD51D31ACEB00B05267 /* AppDelegate.swift */,
-				42F5444F1D32325200D72B21 /* Video Resources */,
 				4284DB291D31ADB900B05267 /* Model */,
 				4284DB161D31AD7300B05267 /* Controller */,
 				4284DAD91D31ACEC00B05267 /* Main.storyboard */,
@@ -213,6 +298,9 @@
 				4284DB0C1D31AD6800B05267 /* FriendSearchTableViewCell.swift */,
 				4284DB081D31AD6800B05267 /* MessageTableViewController.swift */,
 				4284DB091D31AD6800B05267 /* AddViewController.swift */,
+				42D774021D37453100C72134 /* TimeLineViewController.swift */,
+				42D774061D374CA400C72134 /* TimeLinetableviewCell.swift */,
+				42FB885A1D37EC1700898C92 /* webViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -228,7 +316,8 @@
 				4284DB1D1D31ADA000B05267 /* ImagesHolderForPost.swift */,
 				4284DB1E1D31ADA000B05267 /* ParseHelper.swift */,
 				4284DB1F1D31ADA000B05267 /* UserSharePost.swift */,
-				420906811D35C662008162E6 /* ProfileUser.swift */,
+				42D774041D37456900C72134 /* eventHelper.swift */,
+				42FB88581D37D42000898C92 /* indicatorHelper.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -236,8 +325,11 @@
 		4285BD681D33728100C23C65 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				42F5444F1D32325200D72B21 /* Video Resources */,
 				4284DAE11D31ACEC00B05267 /* LaunchScreen.storyboard */,
 				4284DADC1D31ACEC00B05267 /* Meet_Up.xcdatamodeld */,
+				42018E281D381442005EB7E7 /* BTNavigationDropdownMenu.bundle */,
+				42018E261D3813C3005EB7E7 /* BTNavigationDropdownMenu.swift */,
 				4285BD661D33727A00C23C65 /* SCLAlertView.swift */,
 				4284DAE41D31ACEC00B05267 /* Info.plist */,
 			);
@@ -257,6 +349,7 @@
 		7EA237CF64B6E4490B24DB96 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				42610DE51D36A46400AF40FA /* ImagePickerSheetAction */,
 				ACD3539E8A604C4B2CF9BCBD /* Pods_Meet_Up.framework */,
 				C52631BCBB364F7BBB375509 /* Pods_Meet_UpTests.framework */,
 				CFAB164ED7F6EAA525DA7ECF /* Pods_Meet_UpUITests.framework */,
@@ -398,6 +491,7 @@
 				42C0794B1D33005F008CF5B5 /* splash.mp4 in Resources */,
 				4284DAE31D31ACEC00B05267 /* LaunchScreen.storyboard in Resources */,
 				4259ED8D1D33295400F39348 /* Museo500-Regular.otf in Resources */,
+				42018E291D381442005EB7E7 /* BTNavigationDropdownMenu.bundle in Resources */,
 				4284DAE01D31ACEC00B05267 /* Assets.xcassets in Resources */,
 				4259ED8C1D33295400F39348 /* Default-568h@2x.png in Resources */,
 				4284DADB1D31ACEC00B05267 /* Main.storyboard in Resources */,
@@ -549,26 +643,45 @@
 			buildActionMask = 2147483647;
 			files = (
 				4284DB141D31AD6800B05267 /* FriendSearchTableViewCell.swift in Sources */,
+				42610DF01D36A47900AF40FA /* ImageCollectionViewCell.swift in Sources */,
+				422640921D36C4F400882373 /* JTSSimpleImageDownloader.m in Sources */,
 				4284DB131D31AD6800B05267 /* FriendSearchViewController.swift in Sources */,
-				420906821D35C662008162E6 /* ProfileUser.swift in Sources */,
 				4284DB281D31ADA000B05267 /* UserSharePost.swift in Sources */,
 				4284DB121D31AD6800B05267 /* MessageTableViewCell.swift in Sources */,
 				4259ED901D332A2500F39348 /* SiginInViewController.swift in Sources */,
+				42610DF41D36A47900AF40FA /* ImagePreviewTableViewCell.swift in Sources */,
+				422640941D36C4F400882373 /* UIImage+JTSImageEffects.m in Sources */,
+				42610DF31D36A47900AF40FA /* ImagePreviewFlowLayout.swift in Sources */,
+				42610DEF1D36A47900AF40FA /* ImageAction.swift in Sources */,
+				422640901D36C4F400882373 /* JTSImageInfo.m in Sources */,
 				4284DB0E1D31AD6800B05267 /* ViewController.swift in Sources */,
+				422640911D36C4F400882373 /* JTSImageViewController.m in Sources */,
+				42D774051D37456900C72134 /* eventHelper.swift in Sources */,
+				422640931D36C4F400882373 /* UIApplication+JTSImageViewController.m in Sources */,
 				420906801D35BEB6008162E6 /* ProfileViewController.swift in Sources */,
 				4284DB271D31ADA000B05267 /* ParseHelper.swift in Sources */,
 				4284DADE1D31ACEC00B05267 /* Meet_Up.xcdatamodeld in Sources */,
 				4284DB261D31ADA000B05267 /* ImagesHolderForPost.swift in Sources */,
+				42610DF11D36A47900AF40FA /* ImagePickerCollectionView.swift in Sources */,
 				4284DB231D31ADA000B05267 /* DatePickerDialog.swift in Sources */,
 				4284DB201D31ADA000B05267 /* LocationSearchTable.swift in Sources */,
+				42FB885B1D37EC1700898C92 /* webViewController.swift in Sources */,
 				4259ED921D332A3200F39348 /* RegisterViewController.swift in Sources */,
 				4284DB211D31ADA000B05267 /* PhotoTakingHelper.swift in Sources */,
 				4284DB111D31AD6800B05267 /* AddViewController.swift in Sources */,
 				4284DB251D31ADA000B05267 /* Post.swift in Sources */,
+				42610DF61D36A51500AF40FA /* PreviewSupplementaryView.swift in Sources */,
+				4226408F1D36C4F400882373 /* JTSAnimatedGIFUtility.m in Sources */,
 				4284DB101D31AD6800B05267 /* MessageTableViewController.swift in Sources */,
+				42D774031D37453100C72134 /* TimeLineViewController.swift in Sources */,
+				42D774071D374CA400C72134 /* TimeLinetableviewCell.swift in Sources */,
 				4284DB221D31ADA000B05267 /* NSDate.swift in Sources */,
+				42610DEE1D36A47900AF40FA /* AnimationController.swift in Sources */,
+				42610DF21D36A47900AF40FA /* ImagePickerSheetController.swift in Sources */,
 				4284DB321D31C56C00B05267 /* FrontPageViewController.swift in Sources */,
+				42018E271D3813C3005EB7E7 /* BTNavigationDropdownMenu.swift in Sources */,
 				4284DB0F1D31AD6800B05267 /* CollectionViewCell.swift in Sources */,
+				42FB88591D37D42000898C92 /* indicatorHelper.swift in Sources */,
 				4285BD671D33727A00C23C65 /* SCLAlertView.swift in Sources */,
 				4284DAD61D31ACEB00B05267 /* AppDelegate.swift in Sources */,
 			);
@@ -715,6 +828,7 @@
 			baseConfigurationReference = 57E1EBD0565205129FA3271D /* Pods-Meet Up.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Meet Up/Info.plist";
@@ -722,6 +836,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ThongTran-Meet-Up";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Meet Up/Meet Up-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -730,6 +846,7 @@
 			baseConfigurationReference = 30852E893D51B397DDC180FB /* Pods-Meet Up.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Meet Up/Info.plist";
@@ -737,6 +854,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ThongTran-Meet-Up";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Meet Up/Meet Up-Bridging-Header.h";
 			};
 			name = Release;
 		};

@@ -71,7 +71,8 @@ class SiginInViewController: UIViewController, UITextFieldDelegate, ModalTransit
             SwiftSpinner.hide({
             if user != nil {
                 let model = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("appAccess")
-                self.tr_presentViewController(model, method: TRPresentTransitionMethod.TaaskyFlip(blurEffect: true))
+                //self.tr_presentViewController(model, method: TRPresentTransitionMethod.TaaskyFlip(blurEffect: true))
+                self.tr_presentViewController(model, method: TRPresentTransitionMethod.TaaskyFlip(blurEffect: true), statusBarStyle: TRStatusBarStyle.LightContent, completion: nil)
 
             } else {
                 // The login failed. Check error to see why.
@@ -99,9 +100,6 @@ class SiginInViewController: UIViewController, UITextFieldDelegate, ModalTransit
             passWordTextField.resignFirstResponder()
         }
         return true
-    }
-    override func preferredStatusBarStyle() -> UIStatusBarStyle {
-        return .LightContent
     }
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(true)

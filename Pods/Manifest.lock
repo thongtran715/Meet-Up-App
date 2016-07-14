@@ -1,4 +1,9 @@
 PODS:
+  - Alamofire (3.4.0)
+  - AlamofireImage (2.4.0):
+    - Alamofire (~> 3.3)
+  - AlamofireNetworkActivityIndicator (1.0.1):
+    - Alamofire (~> 3.3)
   - Bolts (1.7.0):
     - Bolts/AppLinks (= 1.7.0)
     - Bolts/Tasks (= 1.7.0)
@@ -26,12 +31,16 @@ PODS:
     - Parse (~> 1.9)
   - Spring (1.0.3)
   - SwiftSpinner (0.9.5)
+  - SwiftyJSON (2.3.2)
   - TransitionAnimation (3.0.4):
     - TransitionTreasury (~> 3.0)
   - TransitionTreasury (3.0.4)
   - VideoSplashKit (1.1.0)
 
 DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage
+  - AlamofireNetworkActivityIndicator
   - Bond (= 4.0.0)
   - Canvas
   - ConvenienceKit
@@ -41,6 +50,7 @@ DEPENDENCIES:
   - ParseUI
   - Spring (from `https://github.com/MengTo/Spring.git`, branch `swift2`)
   - SwiftSpinner
+  - SwiftyJSON
   - TransitionAnimation (~> 3.0.4)
   - TransitionTreasury (~> 3.0.4)
   - VideoSplashKit
@@ -56,6 +66,9 @@ CHECKOUT OPTIONS:
     :git: https://github.com/MengTo/Spring.git
 
 SPEC CHECKSUMS:
+  Alamofire: c19a627cefd6a95f840401c49ab1f124e07f54ee
+  AlamofireImage: 87408b652e0f5ae5fe364035f15aea8b9b24c77e
+  AlamofireNetworkActivityIndicator: 49a6e39afb947136f7b1872bae2d684957c26697
   Bolts: a0058fa3b331c5a1e4402d534f2dae36dbff31e4
   Bond: b729cdb22552def86efd4adfd8b8d93061eb4649
   Canvas: eb861e3b555d032648146c8ffda1a5dea40059ca
@@ -68,10 +81,11 @@ SPEC CHECKSUMS:
   ParseUI: af2eba584799da4a9fbdac0e178662d7438b502e
   Spring: 3f02b5dc3308572ef177b3cad0fa7bbc4b0706f7
   SwiftSpinner: c6585a0ae5c67eb33e737695cce88f0262008cce
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
   TransitionAnimation: d761c1a338f5333f4b02a184935e61a8dc14d0e4
   TransitionTreasury: 7228b7758ba4b742e152a198dbe6ca1e46b43949
   VideoSplashKit: 0aa63d0bb37c5bd357de3e6a2a13dea5acad4d66
 
-PODFILE CHECKSUM: f2f820a69a5a3f145bab1c92313f026d4ea770f8
+PODFILE CHECKSUM: 74df9c692a227dd7b7b712e3230a188179c99fbf
 
 COCOAPODS: 1.0.1

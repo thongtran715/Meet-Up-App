@@ -14,6 +14,8 @@ class CollectionViewCell: UICollectionViewCell {
         super.layoutSubviews()
         self.layer.cornerRadius = 20.0
         self.clipsToBounds = true
-    }
+        }
+    
+    
     
 }

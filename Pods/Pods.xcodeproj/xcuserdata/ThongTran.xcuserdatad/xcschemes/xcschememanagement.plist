@@ -4,6 +4,21 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Alamofire.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>AlamofireImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>AlamofireNetworkActivityIndicator.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Bolts.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -84,6 +99,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SwiftyJSON.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>TransitionAnimation.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -102,6 +122,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>05094CC4A047119F7ADC14EE74C4881C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>0EB19C1377A747F81110D44E2D5FCF78</key>
 		<dict>
 			<key>primary</key>
@@ -112,7 +137,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>12693BCFD03225ED27399DD965049C16</key>
+		<key>228FFC4E78F899B58C33C57F31513A8E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -127,12 +152,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>412D9AB839A1A1623F6D929DE83AD16A</key>
+		<key>3E16DA7118F67ED67DD7E131D7DA7A2A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4D0AC554C18111A1A1AA7D3F57659A4D</key>
+		<key>412D9AB839A1A1623F6D929DE83AD16A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -147,12 +172,32 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>5A1DA1DB007A998FF7A98447A0D8E3DC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>6EDC37F3FA92533C6AC3562458AA91F1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7E5A06901C5867A5AEFA162BB7D16F59</key>
+		<key>71404810B443E41CAD3840D56A80846B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>716136F7ED307B6C34E1E273A04C4E4E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7947E798B78FA8D5CABE2E5BDAB5FB0D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>79C040AFDDCE1BCBF6D8B5EB0B85887F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -172,12 +217,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A29E55E1C16796E9D55B43137FB2BA71</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>AF74DD659AD91A8A2A639ED019F327D1</key>
+		<key>AB0E5CF36BF6E3F9781F8488FFB03885</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -192,7 +232,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E337A8CD803C9B267E42E441B73F2BD3</key>
+		<key>FFD56CB3B7346F720B14A7250B42F4AC</key>
 		<dict>
 			<key>primary</key>
 			<true/>

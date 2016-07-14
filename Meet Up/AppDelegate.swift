@@ -2,7 +2,6 @@
 import UIKit
 import Parse
 
-
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
@@ -34,9 +33,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let acl = PFACL()
         acl.publicReadAccess = true
-        acl.publicWriteAccess = true
-        //acl.setWriteAccess(true, forRoleWithName: "toUser")
-        //acl.publicWriteAccess = true
+        
+        
+        let navigationBar = UINavigationBar.appearance()
+        navigationBar.tintColor = UIColor.whiteColor()
         
         PFACL.setDefaultACL(acl, withAccessForCurrentUser: true)
         

@@ -114,8 +114,14 @@ class ParseHelper {
         }
     }
     
-    
-    
+    static func getPictureProfile(completionBlock : PFDataResultBlock) {
+        if  PFUser.currentUser()!["profileImage"] != nil {
+            let avatarFile = PFUser.currentUser()!["profileImage"] as! PFFile
+            avatarFile.getDataInBackgroundWithBlock(completionBlock)
+    }
+       
+}
+  
 }
 extension PFObject {
     

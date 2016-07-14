@@ -71,6 +71,7 @@ class AddViewController: UIViewController {
                     getPostandUsersLinked.toUser = name
                     getPostandUsersLinked.fromPost = post
                     getPostandUsersLinked.fromUser = post.user
+                    getPostandUsersLinked.ACL?.setWriteAccess(true, forUser: name)
                     getPostandUsersLinked.saveInBackgroundWithBlock(nil)
                 }
             }
@@ -140,7 +141,7 @@ class AddViewController: UIViewController {
         
         super.viewDidLoad()
         arrayOfImages.append(UIImage(named: "noImageAvailable")!)
-        self.collectionView.dataSource = self
+        
         scrollView.contentSize.height = 10000
         locationManager.delegate = self
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
@@ -159,8 +160,13 @@ class AddViewController: UIViewController {
         locationSearchTable.mapView = mapView
         locationSearchTable.handleMapSearchDelegate = self
         
+       
+        
+        
         // Do any additional setup after loading the view.
     }
+   
+    
     private func createFloatingButton()  {
         let floatingFrame = CGRect(x: self.view.frame.width - 56 - 16, y: self.view.frame.height - 56 - 16, width: 56, height: 56)
                 floatingButton = KCFloatingActionButton(frame: floatingFrame)
@@ -292,8 +298,24 @@ extension AddViewController: UICollectionViewDataSource{
         cell.imageView.image = arrayOfImages[indexPath.row]
         return cell
         
-        
     }
 }
-
+extension AddViewController: UICollectionViewDelegate
+{
+    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+        let cell = collectionView.cellForItemAtIndexPath(indexPath)
+        let gesture : UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(AddViewController.tapClicked))
+        cell?.userInteractionEnabled = true
+        
+        cell?.addGestureRecognizer(gesture)
+    }
+    
+    
+    func tapClicked() {
+        print("OK")
+        
+    }
+    
+    
+}
 
